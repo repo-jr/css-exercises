@@ -21,5 +21,9 @@ Issues with the cascade can be the bane of their existence for many when it come
 >>>>>>> refs/rewritten/Merge-remote-into-local
 =======
 
+<<<<<<< HEAD
 _Note: this exercise has had its style changed, for accessibility reasons. For new and old students, we propose to carry out the exercise noting how important it is to pay attention to the accessibility of the web, and we encourage more and more practices like this._
 >>>>>>> b919b54 (Update for accessibility)
+=======
+_Note: for accessibility reasons, the style in this exercise has changed. For new and old students, we propose to carry out the exercise noting how important it is to pay attention to the accessibility of the web, and we encourage more and more practices like this._
+>>>>>>> 9bf194d (Update cascade-fix/README.md)

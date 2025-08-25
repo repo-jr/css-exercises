@@ -8,8 +8,13 @@ There are multiple ways to solve this exercise, and we did our best to include a
 Issues with the cascade can be the bane for many when it comes to CSS, and while you won't be an expert from this exercise alone and there are other ways to deal with these issues, it is still super helpful to see how these issues affect our final styles and why its important to order rules carefully.
 
 ## Desired Outcome
-<!-- Insert Outcome Image -->
+![outcome](https://user-images.githubusercontent.com/70952936/131411210-47ff21dd-6d0c-4a7f-b6b1-1ec40f93dd8c.jpg)
 
 ### Self Check
+<<<<<<< HEAD
 - Did you make sure to not edit the HTML file?
 - If you added selectors to the CSS, do they target a valid HTML element?
+=======
+- Do all rules for elements labeled "Fix specificity" have the correct selector added or removed?
+- Are all rules for elements labeled "Fix rule order" placed at the end of the CSS file and in the correct order?
+>>>>>>> refs/rewritten/Merge-remote-into-local

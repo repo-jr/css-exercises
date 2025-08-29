@@ -27,3 +27,71 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Changes */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center; /* aligning from top to bottom */
+  font-weight: bold;
+  padding: 0px 16px;
+  font-size: 32pt;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-grow: 1; /* allows from the middle section to stretch from top to bottom*/
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap; /* allows for the cards to wrap*/
+  justify-content: flex-start;
+  gap: 48px;
+  padding: 48px;
+}
+
+.card {
+  width: 300px;
+  padding: 16px;
+}
+
+.sidebar {
+  padding: 16px;
+
+  /* allows sidebar to not shrink */
+  flex-shrink: 0;
+  min-width: 300px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 16pt;
+  
+  /* removing list format */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* changing the link color and removing underline */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  align-items: center; /* aligning from top to bottom */
+  justify-content: center; /* aligning from left to right */
+}
+
+
